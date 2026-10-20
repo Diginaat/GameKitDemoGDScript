@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="WeatherPreset" format=3]
+
+[ext_resource type="Script" path="res://addons/gamekit_weather/scripts/weather_preset.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "Thunderstorm"
+cloud_coverage = 1.0
+cloud_density = 1.0
+cloud_darkness = 0.95
+overcast = 0.95
+rain_intensity = 1.0
+lightning_per_minute = 6.0
+wind_speed = 16.0
+wind_direction_degrees = 75.0
+gustiness = 0.85
+fog_density = 0.03
+distance_fog = 0.022
+sun_energy_scale = 0.04
+scene_brightness = 0.38

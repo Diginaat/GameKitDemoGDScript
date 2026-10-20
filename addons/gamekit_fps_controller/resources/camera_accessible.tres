@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="PlayerCameraSettings" format=3 uid="uid://dwlrlw4m53k0m"]
+
+[ext_resource type="Script" path="res://addons/gamekit_fps_controller/scripts/player_camera_settings.gd" id="1"]
+[ext_resource type="Resource" path="res://addons/gamekit_lens/profiles/clean.tres" id="2_lens"]
+
+[resource]
+script = ExtResource("1")
+preset_name = "Reduced Motion"
+motion_effects = false
+lens = ExtResource("2_lens")

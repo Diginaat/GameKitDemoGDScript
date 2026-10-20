@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LensProfile" format=3]
+
+[ext_resource type="Script" path="res://addons/gamekit_lens/scripts/lens_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "Clean"
+vignette_enabled = false
+chromatic_aberration_enabled = false
+distortion_enabled = false
+halation_enabled = false
+grain_enabled = false
+grading_enabled = false
+flare_enabled = false

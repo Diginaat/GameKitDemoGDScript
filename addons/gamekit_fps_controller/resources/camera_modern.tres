@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="PlayerCameraSettings" format=3 uid="uid://dhldbvycy7l5h"]
+
+[ext_resource type="Script" path="res://addons/gamekit_fps_controller/scripts/player_camera_settings.gd" id="1"]
+[ext_resource type="Resource" path="res://addons/gamekit_lens/profiles/natural.tres" id="2_lens"]
+
+[resource]
+script = ExtResource("1")
+lens = ExtResource("2_lens")
